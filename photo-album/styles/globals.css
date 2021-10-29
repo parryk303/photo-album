@@ -14,3 +14,18 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1E3A8A;
+  color: white;
+  font-size: xx-large;
+  width: 101%;
+  padding: 20px;
+  box-shadow: 0 10px 8px -6px black;
+  margin-left: -10px;
+  background-image: url('https://www.transparenttextures.com/patterns/micro-carbon.png');
+}
+
+
