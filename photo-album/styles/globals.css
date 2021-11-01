@@ -18,6 +18,7 @@ a {
 .nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   background-color: #1E3A8A;
   color: white;
   font-size: xx-large;
@@ -25,7 +26,45 @@ a {
   padding: 20px;
   box-shadow: 0 10px 8px -6px black;
   margin-left: -10px;
+  margin-bottom: 2%;
   background-image: url('https://www.transparenttextures.com/patterns/micro-carbon.png');
+}
+
+.brand {
+  font-size: 50px;
+}
+
+#title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+#logo {
+  padding-right: 300px;
+}
+
+.card {
+  text-align: center;
+  box-shadow: 0 10px 8px -6px black;
+}
+
+#album {
+  cursor: pointer;
+}
+
+.id {
+  padding: 10px;
+}
+
+.title {
+  padding: 10px;
+}
+
+#image {
+  background-color: #FFFF;
+  margin-top: 10px;
 }
 
 
