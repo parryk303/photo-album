@@ -4,6 +4,7 @@ import Head from 'next/head'
 import fetch from 'isomorphic-unfetch'
 import Image from 'next/image'
 
+
 const Photos = ({ photos }) => {
 
   return (

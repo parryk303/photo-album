@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Nav from './Nav'
 
-const Layout = ({ children }) => (
+const Layout = ({ albums, setAlbums, children, results, setResults }) => (
   <>
     <Head>
       <link
@@ -11,7 +11,11 @@ const Layout = ({ children }) => (
       <title>Photo Album App</title>
       <link rel='icon' href='/favicon.ico' />
     </Head>
-    <Nav />
+    <Nav
+      albums={albums}
+      setAlbums={setAlbums}
+      results={results}
+      setResults={setResults}/>
     {children}
   </>
 )
