@@ -10,12 +10,12 @@ const Photos = ({ photos }) => {
   return (
     <div className={styles.container}>
       <div className='ui five stackable cards'>
-        {photos.map((photos) => (
-          <div className='card' key={photos.id}>
+        {photos.map((photo) => (
+          <div className='card' key={photo.id}>
             <div className='image' id='image'>
-              <Image src={photos.url} width={200} height={200} alt={photos.id} />
+              <Image src={photo.url} width={200} height={200} alt={photo.id} />
             </div>
-            <h3 className='title'>[{photos.id}] {photos.title}</h3>
+            <h3 className='title'>[{photo.id}] {photo.title}</h3>
           </div>
         ))}
       </div>
