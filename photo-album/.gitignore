@@ -6,10 +6,7 @@
 .pnp.js
 
 # testing
-/testing
 /coverage
-.spec.js
-.spec.js.snap
 
 # next.js
 /.next/
