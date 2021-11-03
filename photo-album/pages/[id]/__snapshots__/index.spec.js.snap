@@ -9,6 +9,7 @@ exports[`Snapshot Testing renders with no errors 1`] = `
   >
     <div
       className="card"
+      id="photo"
     >
       <div
         className="image"
@@ -140,6 +141,7 @@ exports[`Snapshot Testing renders with no errors 1`] = `
     </div>
     <div
       className="card"
+      id="photo"
     >
       <div
         className="image"

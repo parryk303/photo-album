@@ -138,6 +138,7 @@ Array [
       >
         <input
           className="prompt"
+          id="search"
           onChange={[Function]}
           placeholder="Search albums..."
           type="text"

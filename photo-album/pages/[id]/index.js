@@ -11,7 +11,7 @@ const Photos = ({ photos }) => {
     <div className={styles.container}>
       <div className='ui five stackable cards'>
         {photos.map((photo) => (
-          <div className='card' key={photo.id}>
+          <div className='card' id='photo' key={photo.id}>
             <div className='image' id='image'>
               <Image src={photo.url} width={200} height={200} alt={photo.id} />
             </div>

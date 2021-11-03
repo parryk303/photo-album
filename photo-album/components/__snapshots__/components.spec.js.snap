@@ -270,6 +270,7 @@ exports[`Layout Snapshot renders with no errors 1`] = `
     >
       <input
         className="prompt"
+        id="search"
         onChange={[Function]}
         placeholder="Search albums..."
         type="text"
@@ -422,6 +423,7 @@ exports[`Nav Snapshot renders with no errors 1`] = `
     >
       <input
         className="prompt"
+        id="search"
         onChange={[Function]}
         placeholder="Search albums..."
         type="text"

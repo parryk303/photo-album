@@ -36,7 +36,7 @@ const Nav = ({ albums, setAlbums, results, setResults }) => {
             </Link>
             <div className='ui search'>
                 <div className='ui icon input'>
-                    <input className='prompt' type='text' placeholder='Search albums...'
+                    <input className='prompt' id='search' type='text' placeholder='Search albums...'
                         onChange= {e => {
                             searchAlbums( e.target.value.toLowerCase().trim());
                           }}/>
