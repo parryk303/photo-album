@@ -20,8 +20,9 @@ function MyApp({ Component, pageProps }) {
       albums={albums}
       setAlbums={setAlbums}
       results={results}
-      setResults={setResults}
-      ><Component albums={albums} results={results}  {...pageProps} /></Layout>
+      setResults={setResults} >
+      <Component albums={albums} results={results}  {...pageProps} />
+    </Layout>
   )
 }
 

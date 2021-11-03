@@ -2,10 +2,11 @@
  * @jest-environment jsdom
  */
 const { shallow, mount, render, configure } = require('enzyme')
+import renderer from 'react-test-renderer'
 
 import Photos from './index'
 
-const sampleB = [
+const sample = [
     {
       albumId: 1,
       id: 1,
@@ -22,11 +23,20 @@ const sampleB = [
     }
   ]
 
-describe("Photos", () => {
-  it("renders with no errors", () => {
-    const data = sampleB;
+describe('Photos', () => {
+  it('renders with no errors', () => {
+    const data = sample;
     const wrapper = mount(<Photos photos={data} />);
     expect(wrapper.props().photos[0]).toEqual(data[0]);
     expect(wrapper.props().photos[1]).toEqual(data[1]);
   });
 });
+
+describe('Snapshot Testing', () => {
+  it('renders with no errors', () => {
+    const data = sample;
+    const component = renderer.create(<Photos photos={data} />);
+    const tree = component.toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+})
