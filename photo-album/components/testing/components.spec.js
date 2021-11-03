@@ -4,9 +4,9 @@
 const { shallow, mount, render, configure } = require('enzyme')
 import renderer from 'react-test-renderer'
 
-import Footer from './Footer'
-import Layout from './Layout'
-import Nav from './Nav'
+import Footer from '../Footer'
+import Layout from '../Layout'
+import Nav from '../Nav'
 
 const sample = [
   {

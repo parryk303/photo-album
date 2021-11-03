@@ -4,8 +4,8 @@
 const { shallow, mount, render, configure } = require('enzyme')
 import renderer from 'react-test-renderer'
 
-import MyApp from './_app'
-import Index from './index'
+import MyApp from '../_app'
+import Index from '../index'
 
 const sample = [
   {

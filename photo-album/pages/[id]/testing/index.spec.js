@@ -4,7 +4,7 @@
 const { shallow, mount, render, configure } = require('enzyme')
 import renderer from 'react-test-renderer'
 
-import Photos from './index'
+import Photos from '../index'
 
 const sample = [
     {
