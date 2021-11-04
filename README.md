@@ -1,7 +1,7 @@
 # photo-album
 ![photo-album](./preview.png)
 
-A app to display photo albums from JSON Placeholder API https://jsonplaceholder.typicode.com/
+An app to display photo albums from JSON Placeholder API https://jsonplaceholder.typicode.com/
 
 > Deployed with Vercel to https://photo-album-kohl.vercel.app/
 
